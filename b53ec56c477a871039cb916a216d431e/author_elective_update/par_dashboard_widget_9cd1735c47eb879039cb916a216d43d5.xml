@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">99448b1047a7879039cb916a216d43b6</canvas>
+        <component display_value="List">7ff373544303121093711347efb8f23c</component>
+        <component_props>{"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showHeader":true,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":true,"headingLevel":2,"limit":5,"columnLimit":5,"maxCharLimit":40,"showPersonalization":false,"hideDotwalk":false,"showColumnReorder":true,"showColumnGrouping":true,"showColumnResizing":true,"showColumnFiltering":false,"showColumnSorting":false,"allowAdditionalGroupByPerMetric":false,"sortByOrder":"ORDERBY","followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"componentId":"i3y0pjwo","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","columns":"number,categoria,transportadora,impacto_financeiro_estimado","table":"x_2066889_centra_0_incidente_logistico","showLinks":true,"wrapCellContent":"useLineBreaksUserPref","showViewAll":false,"showInlineEditing":true,"allowListPagination":true,"lineClamp":1,"headerTitleAlignment":"center","headerTitle":"Top 5 ","showBorder":true,"showExportOption":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Incidente Logistico","sourceType":"table","tableOrViewName":"x_2066889_centra_0_incidente_logistico","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzIwNjY4ODlfY2VudHJhXzBfaW5jaWRlbnRlX2xvZ2lzdGljbzE3OTAwMzgzOTI2ODU=","dataCategories":["trend","group","simple"]}],"bareBorder":false,"headerColor":{"themeVariable":"--now-color_alert--info-4","value":"#003f6a"},"titleColor":{"themeVariable":"--now-color_text--primary-actionable","value":"#ffffff"},"showAdditionalGroupBySelector":false,"groupByField":""}</component_props>
+        <h>21</h>
+        <name/>
+        <required_translations>[{"comment":"","message":"No data available.","code":"PAR_DASHBOARD.99448b1047a7879039cb916a216d43b6.9cd1735c47eb879039cb916a216d43d5"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_DASHBOARD.99448b1047a7879039cb916a216d43b6.9cd1735c47eb879039cb916a216d43d5"},{"comment":"","message":"Top 5 ","code":"PAR_DASHBOARD.99448b1047a7879039cb916a216d43b6.9cd1735c47eb879039cb916a216d43d5"},{"comment":"","message":"Incidente Logistico","code":"PAR_DASHBOARD.99448b1047a7879039cb916a216d43b6.9cd1735c47eb879039cb916a216d43d5"}]</required_translations>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-22 01:07:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9cd1735c47eb879039cb916a216d43d5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name>par_dashboard_widget_9cd1735c47eb879039cb916a216d43d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-22 01:59:22</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>20</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</application>
+        <file_path/>
+        <instance_id>51b953c9eb5dc79c56eafddacad0cd55</instance_id>
+        <instance_name>dev398605</instance_name>
+        <name>par_dashboard_widget_9cd1735c47eb879039cb916a216d43d5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">99448b1047a7879039cb916a216d43b6</canvas><component display_value="List">7ff373544303121093711347efb8f23c</component><component_props>{"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showHeader":true,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":true,"headingLevel":2,"limit":5,"columnLimit":5,"maxCharLimit":40,"showPersonalization":false,"hideDotwalk":false,"showColumnReorder":true,"showColumnGrouping":true,"showColumnResizing":true,"showColumnFiltering":false,"showColumnSorting":false,"allowAdditionalGroupByPerMetric":false,"sortByOrder":"ORDERBY","followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"componentId":"i3y0pjwo","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","columns":"number,categoria,transportadora,impacto_financeiro_estimado","table":"x_2066889_centra_0_incidente_logistico","showLinks":true,"wrapCellContent":"useLineBreaksUserPref","showViewAll":false,"showInlineEditing":true,"allowListPagination":true,"lineClamp":1,"headerTitleAlignment":"center","headerTitle":"Top 5 ","showBorder":true,"showExportOption":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Incidente Logistico","sourceType":"table","tableOrViewName":"x_2066889_centra_0_incidente_logistico","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzIwNjY4ODlfY2VudHJhXzBfaW5jaWRlbnRlX2xvZ2lzdGljbzE3OTAwMzgzOTI2ODU=","dataCategories":["trend","group","simple"]}],"bareBorder":false,"headerColor":{"themeVariable":"--now-color_alert--info-4","value":"#003f6a"},"titleColor":{"themeVariable":"--now-color_text--primary-actionable","value":"#ffffff"},"showAdditionalGroupBySelector":false,"groupByField":""}</component_props><h>21</h><name/><required_translations>[{"comment":"","message":"No data available.","code":"PAR_DASHBOARD.99448b1047a7879039cb916a216d43b6.9cd1735c47eb879039cb916a216d43d5"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_DASHBOARD.99448b1047a7879039cb916a216d43b6.9cd1735c47eb879039cb916a216d43d5"},{"comment":"","message":"Top 5 ","code":"PAR_DASHBOARD.99448b1047a7879039cb916a216d43b6.9cd1735c47eb879039cb916a216d43d5"},{"comment":"","message":"Incidente Logistico","code":"PAR_DASHBOARD.99448b1047a7879039cb916a216d43b6.9cd1735c47eb879039cb916a216d43d5"}]</required_translations><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-22 01:07:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9cd1735c47eb879039cb916a216d43d5</sys_id><sys_mod_count>4</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package><sys_policy/><sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope><sys_update_name>par_dashboard_widget_9cd1735c47eb879039cb916a216d43d5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-22 01:59:22</sys_updated_on><visualization/><w>48</w><widget_props/><x>0</x><y>20</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>838860712</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>7104b92847be871039cb916a216d4357</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-22 01:59:22</sys_created_on>
+        <sys_id>aecdf714476f879039cb916a216d4327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0c6d6d2e80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-22 01:59:22</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>6ecdf714c36f8790142395a1d2111526</update_guid>
+        <update_guid_history>6ecdf714c36f8790142395a1d2111526:838860712,8819f3d8122f879038eedcf21351c985:-1287122600,a4c7bb18df2f8790ce3970bc515d9e6e:-885304344,20a7b718572f87905920094e863c0fbd:1484129641,98d1735c6aeb8790828532c6a999aed8:-1998459666</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">e4cfbb18476f879039cb916a216d4335</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-22 02:07:58</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>682ad0f6358a43bebfce0e493b587f31</sys_id>
+        <sys_metadata>9cd1735c47eb879039cb916a216d43d5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_scope_delete display_value="">13dfe249bfb6400c8423fd137fb07190</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_9cd1735c47eb879039cb916a216d43d5</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_9cd1735c47eb879039cb916a216d43d5">aecdf714476f879039cb916a216d4327</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-22 02:07:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

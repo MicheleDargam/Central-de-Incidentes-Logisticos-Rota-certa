@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="categoria" table="x_2066889_centra_0_incidente_logistico" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>categoria</element>
+            <name>x_2066889_centra_0_incidente_logistico</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-17 21:59:14</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>categoria</sys_name>
+            <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+            <sys_update_name>sys_choice_x_2066889_centra_0_incidente_logistico_categoria</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-17 21:59:14</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>categoria</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Atraso na Entrega</label>
+            <language>en</language>
+            <name>x_2066889_centra_0_incidente_logistico</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-17 21:59:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-17 21:59:14</sys_updated_on>
+            <value>atraso_na_entrega</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>categoria</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Avaria de Carga</label>
+            <language>en</language>
+            <name>x_2066889_centra_0_incidente_logistico</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-17 21:59:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-17 21:59:14</sys_updated_on>
+            <value>avaria_de_carga</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>categoria</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Falha de Veiculo</label>
+            <language>en</language>
+            <name>x_2066889_centra_0_incidente_logistico</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-17 21:59:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-17 21:59:14</sys_updated_on>
+            <value>falha_de_veiculo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>categoria</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Divergencia de Estoque</label>
+            <language>en</language>
+            <name>x_2066889_centra_0_incidente_logistico</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-17 21:59:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-17 21:59:14</sys_updated_on>
+            <value>divergencia_de_estoque</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>categoria</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Problema de Rota</label>
+            <language>en</language>
+            <name>x_2066889_centra_0_incidente_logistico</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-17 21:59:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-17 21:59:14</sys_updated_on>
+            <value>problema_de_rota</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>categoria</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outro</label>
+            <language>en</language>
+            <name>x_2066889_centra_0_incidente_logistico</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-17 21:59:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-17 21:59:14</sys_updated_on>
+            <value>outro</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Insert a record into 'x_2066889_centra_0_incidente_logistico' with the following values:
+Categoria = Avaria de Carga
+and Carga Pedido = Carga de bebidas - Pedido 007
+and Centro de Distribuição = CD Goiânia
+Confirm the record was successfully inserted</description>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-25 23:53:59</sys_created_on>
+        <sys_id>dcd2487147eb03d039cb916a216d4380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name>sys_atf_step_dcd2487147eb03d039cb916a216d4380</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-25 23:53:59</sys_updated_on>
+        <table>x_2066889_centra_0_incidente_logistico</table>
+        <test display_value="Avaria de Carga define prioridade Alta">b73973ad476b03d039cb916a216d43d6</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=dcd2487147eb03d039cb916a216d4380"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>dcd2487147eb03d039cb916a216d4380</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-25 23:54:01</sys_created_on>
+        <sys_id>217708b947eb03d039cb916a216d4340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-25 23:54:01</sys_updated_on>
+        <value>categoria=avaria_de_carga^carga_pedido=11c6de844723079039cb916a216d43ed^centro_de_distribuicao=28f94a0c47afc39039cb916a216d439b^EQ</value>
+        <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>dcd2487147eb03d039cb916a216d4380</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-25 23:54:01</sys_created_on>
+        <sys_id>a57708b947eb03d039cb916a216d433f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-25 23:54:01</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>dcd2487147eb03d039cb916a216d4380</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-25 23:54:01</sys_created_on>
+        <sys_id>e17708b947eb03d039cb916a216d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-25 23:54:01</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>dcd2487147eb03d039cb916a216d4380</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-25 23:54:01</sys_created_on>
+        <sys_id>e97708b947eb03d039cb916a216d433f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-25 23:54:01</sys_updated_on>
+        <value>x_2066889_centra_0_incidente_logistico</value>
+        <variable display_value="Table">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_14872288df60220062fe6c7a4df26319^id=dcd2487147eb03d039cb916a216d4380"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</application>
+        <file_path/>
+        <instance_id>51b953c9eb5dc79c56eafddacad0cd55</instance_id>
+        <instance_name>dev398605</instance_name>
+        <name>sys_atf_step_dcd2487147eb03d039cb916a216d4380</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Insert a record into 'x_2066889_centra_0_incidente_logistico' with the following values:
+Categoria = Avaria de Carga
+and Carga Pedido = Carga de bebidas - Pedido 007
+and Centro de Distribuição = CD Goiânia
+Confirm the record was successfully inserted</description><display_name>Record Insert</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-25 23:53:59</sys_created_on><sys_id>dcd2487147eb03d039cb916a216d4380</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Record Insert</sys_name><sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package><sys_policy/><sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope><sys_update_name>sys_atf_step_dcd2487147eb03d039cb916a216d4380</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-25 23:53:59</sys_updated_on><table>x_2066889_centra_0_incidente_logistico</table><test display_value="Avaria de Carga define prioridade Alta">b73973ad476b03d039cb916a216d43d6</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=dcd2487147eb03d039cb916a216d4380"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>dcd2487147eb03d039cb916a216d4380</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-25 23:54:01</sys_created_on><sys_id>217708b947eb03d039cb916a216d4340</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-25 23:54:01</sys_updated_on><value>categoria=avaria_de_carga^carga_pedido=11c6de844723079039cb916a216d43ed^centro_de_distribuicao=28f94a0c47afc39039cb916a216d439b^EQ</value><variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>dcd2487147eb03d039cb916a216d4380</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-25 23:54:01</sys_created_on><sys_id>a57708b947eb03d039cb916a216d433f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-25 23:54:01</sys_updated_on><value>1</value><variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>dcd2487147eb03d039cb916a216d4380</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-25 23:54:01</sys_created_on><sys_id>e17708b947eb03d039cb916a216d433e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-25 23:54:01</sys_updated_on><value>record_successfully_inserted</value><variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>dcd2487147eb03d039cb916a216d4380</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-25 23:54:01</sys_created_on><sys_id>e97708b947eb03d039cb916a216d433f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-25 23:54:01</sys_updated_on><value>x_2066889_centra_0_incidente_logistico</value><variable display_value="Table">90144b535320220002c6435723dc3488</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_14872288df60220062fe6c7a4df26319^id=dcd2487147eb03d039cb916a216d4380"/></record_update>]]></payload>
+        <payload_hash>-816697534</payload_hash>
+        <record_name>Record Insert</record_name>
+        <reverted_from/>
+        <source>7104b92847be871039cb916a216d4357</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-25 23:54:01</sys_created_on>
+        <sys_id>a17708b947eb03d039cb916a216d4345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0dafd7f890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-25 23:54:01</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>617708b981eb03d09f67b99d5774e844</update_guid>
+        <update_guid_history>617708b981eb03d09f67b99d5774e844:-816697534</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 21:50:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>0c09c533dcf14a88a8418fb2f45b0721</sys_id>
+        <sys_metadata>dcd2487147eb03d039cb916a216d4380</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_scope_delete display_value="">13dfe249bfb6400c8423fd137fb07190</sys_scope_delete>
+        <sys_update_name>sys_atf_step_dcd2487147eb03d039cb916a216d4380</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_dcd2487147eb03d039cb916a216d4380">a17708b947eb03d039cb916a216d4345</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 21:50:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

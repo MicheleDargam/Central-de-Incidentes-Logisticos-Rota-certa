@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">3a4fbc334797439039cb916a216d4388</canvas>
+        <component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component>
+        <component_props>{"filterId":"1k32t74t53sknq3oa71c","filterName":"Prioridade","filterCustomId":"","filterComponentType":"singleselect","datasource":{"type":"table","payload":{"field":"priority","fieldType":"choice","table":"x_2066889_centra_0_incidente_logistico","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"priority","table":"x_2066889_centra_0_incidente_logistico","primaryKey":"sys_id"}}],"defaultSelectedItems":[],"defaultSelectedDateRange":{"range":""},"dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":false,"filterElementLayout":"vertical","enableClearFilter":true,"primaryActionLabel":"Apply","maxElements":500,"filterConfigurations":"@state.parFilters","cascadeScope":"top_layout","isDashboard":true,"isGroup":false,"value":[],"cascadingConfig":{"filtersFollowing":[],"filterM2MConfigurations":[]}}</component_props>
+        <h>3</h>
+        <name/>
+        <required_translations>[{"comment":"","message":"Prioridade","code":"PAR_DASHBOARD.3a4fbc334797439039cb916a216d4388.603d3e904767879039cb916a216d4314"},{"comment":"","message":"Apply","code":"PAR_DASHBOARD.3a4fbc334797439039cb916a216d4388.603d3e904767879039cb916a216d4314"}]</required_translations>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-21 21:17:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>603d3e904767879039cb916a216d4314</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name>par_dashboard_widget_603d3e904767879039cb916a216d4314</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-23 20:45:12</sys_updated_on>
+        <visualization/>
+        <w>6</w>
+        <widget_props/>
+        <x>10</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

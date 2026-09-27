@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_asset">
+    <sys_ux_theme_asset action="INSERT_OR_UPDATE">
+        <category>image</category>
+        <name>icone_app_rotacerta (1) (1) (1)</name>
+        <sys_class_name>sys_ux_theme_asset</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 22:18:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1d183c334757439039cb916a216d430b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>icone_app_rotacerta (1) (1) (1)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name>sys_ux_theme_asset_1d183c334757439039cb916a216d430b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 22:39:50</sys_updated_on>
+    </sys_ux_theme_asset>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icone_app_rotacerta (1) (1) (1).png</file_name>
+        <hash>396fa60bdccb765154580763228f5894b22060ca2f92a4fe612663d960ecb10a</hash>
+        <image_height>50</image_height>
+        <image_width>50</image_width>
+        <size_bytes>2306</size_bytes>
+        <size_compressed>2317</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 22:39:50</sys_created_on>
+        <sys_id>10fc3cfb4757439039cb916a216d433c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 22:39:56</sys_updated_on>
+        <table_name>sys_ux_theme_asset</table_name>
+        <table_sys_id>1d183c334757439039cb916a216d430b</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icone_app_rotacerta (1) (1) (1).png" sys_id="10fc3cfb4757439039cb916a216d433c">10fc3cfb4757439039cb916a216d433c</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 22:39:50</sys_created_on>
+        <sys_id>d0fc3cfb4757439039cb916a216d433c</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3076</length>
+        <position>1</position>
+        <sys_attachment display_value="icone_app_rotacerta (1) (1) (1).png" sys_id="10fc3cfb4757439039cb916a216d433c">10fc3cfb4757439039cb916a216d433c</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 22:39:50</sys_created_on>
+        <sys_id>94fc3cfb4757439039cb916a216d433c</sys_id>
+    </sys_attachment_doc>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Set the following values on the form:
+Categoria = Outro
+and Centro de Distribuição = CD Curitiba
+and Carga Pedido = Carga de bebidas - Pedido 007</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 21:21:14</sys_created_on>
+        <sys_id>12673dde47e747d039cb916a216d43af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name>sys_atf_step_12673dde47e747d039cb916a216d43af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 21:21:14</sys_updated_on>
+        <table>x_2066889_centra_0_incidente_logistico</table>
+        <test display_value="Categoria Outro define prioridade Baixa">e907f1de47e747d039cb916a216d4306</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=12673dde47e747d039cb916a216d43af"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>12673dde47e747d039cb916a216d43af</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 21:21:14</sys_created_on>
+        <sys_id>7ea73912472b47d039cb916a216d4324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 21:21:14</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>12673dde47e747d039cb916a216d43af</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 21:21:14</sys_created_on>
+        <sys_id>b2a73912472b47d039cb916a216d4325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 21:21:14</sys_updated_on>
+        <value>x_2066889_centra_0_incidente_logistico</value>
+        <variable display_value="Table">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>12673dde47e747d039cb916a216d43af</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 21:21:14</sys_created_on>
+        <sys_id>f6a73912472b47d039cb916a216d4325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 21:21:14</sys_updated_on>
+        <value>categoria=outro^centro_de_distribuicao=102a060847afc39039cb916a216d4353^carga_pedido=11c6de844723079039cb916a216d43ed^EQ</value>
+        <variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e^id=12673dde47e747d039cb916a216d43af"/>
+</record_update>

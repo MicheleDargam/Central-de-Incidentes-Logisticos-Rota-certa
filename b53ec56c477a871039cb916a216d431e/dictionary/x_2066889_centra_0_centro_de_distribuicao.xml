@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="158b69e4477e871039cb916a216d43e3" label="Centro de Distribuicao" max_length="40" name="x_2066889_centra_0_centro_de_distribuicao" type="collection">
+        <element label="Capacidade (m³)" max_length="40" name="capacidade" type="integer"/>
+        <element display="true" label="Nome" max_length="100" name="nome" type="string"/>
+        <element choice="3" label="Região" mandatory="true" max_length="100" name="regiao" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sul" sequence="4" value="sul"/>
+                <element inactive_on_update="false" label="Centro-Oeste" sequence="2" value="centro_oeste"/>
+                <element inactive_on_update="false" label="Norte" sequence="0" value="norte"/>
+                <element inactive_on_update="false" label="Sudeste" sequence="3" value="sudeste"/>
+                <element inactive_on_update="false" label="Nordeste" sequence="1" value="nordeste"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description/>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>Avaria de Carga define prioridade Alta</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-25 22:54:05</sys_created_on>
+        <sys_id>b73973ad476b03d039cb916a216d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Avaria de Carga define prioridade Alta</sys_name>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name>sys_atf_test_b73973ad476b03d039cb916a216d43d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-25 22:54:05</sys_updated_on>
+        <test_origin>manual</test_origin>
+    </sys_atf_test>
+    <sys_variable_value action="DELETE" query="document_key=b73973ad476b03d039cb916a216d43d6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</application>
+        <file_path/>
+        <instance_id>51b953c9eb5dc79c56eafddacad0cd55</instance_id>
+        <instance_name>dev398605</instance_name>
+        <name>sys_atf_test_b73973ad476b03d039cb916a216d43d6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description/><enable_parameterized_testing>false</enable_parameterized_testing><fail_on_server_error>true</fail_on_server_error><name>Avaria de Carga define prioridade Alta</name><parameters/><remember/><sn_atf_tg_generated>false</sn_atf_tg_generated><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-25 22:54:05</sys_created_on><sys_id>b73973ad476b03d039cb916a216d43d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Avaria de Carga define prioridade Alta</sys_name><sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package><sys_policy/><sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope><sys_update_name>sys_atf_test_b73973ad476b03d039cb916a216d43d6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-25 22:54:05</sys_updated_on><test_origin>manual</test_origin></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=b73973ad476b03d039cb916a216d43d6"/></record_update>]]></payload>
+        <payload_hash>1445544312</payload_hash>
+        <record_name>Avaria de Carga define prioridade Alta</record_name>
+        <reverted_from/>
+        <source>7104b92847be871039cb916a216d4357</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-25 22:54:05</sys_created_on>
+        <sys_id>2bb973ed476b03d039cb916a216d4386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0dac6a1960000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-25 22:54:05</sys_updated_on>
+        <type>Test</type>
+        <update_guid>63b973ede76b03d09025ef84125a6985</update_guid>
+        <update_guid_history>63b973ede76b03d09025ef84125a6985:1445544312</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 21:50:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test">sys_atf_test</sys_db_object>
+        <sys_id>25b053b1a416486ba69ecad9f8753f79</sys_id>
+        <sys_metadata>b73973ad476b03d039cb916a216d43d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Avaria de Carga define prioridade Alta</sys_name>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_scope_delete display_value="">13dfe249bfb6400c8423fd137fb07190</sys_scope_delete>
+        <sys_update_name>sys_atf_test_b73973ad476b03d039cb916a216d43d6</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_b73973ad476b03d039cb916a216d43d6">2bb973ed476b03d039cb916a216d4386</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 21:50:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

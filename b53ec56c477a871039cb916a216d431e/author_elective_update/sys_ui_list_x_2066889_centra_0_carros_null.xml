@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_2066889_centra_0_carros" version="2" view="">
+        <sys_ui_list_element action="DELETE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_2066889_centra_0_carros" element="NULL" name="x_2066889_centra_0_carros" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a3ec8fb2470f4b1039cb916a216d43f3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-04 20:19:19</sys_created_on>
+            <sys_id>63ec8fb2470f4b1039cb916a216d43f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-04 20:19:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="DELETE">
+            <average_value>false</average_value>
+            <element>ano</element>
+            <list_id display_value="x_2066889_centra_0_carros" element="NULL" name="x_2066889_centra_0_carros" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a3ec8fb2470f4b1039cb916a216d43f3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-04 20:19:19</sys_created_on>
+            <sys_id>e7ec8fb2470f4b1039cb916a216d43f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-04 20:19:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="DELETE">
+            <average_value>false</average_value>
+            <element>nomes</element>
+            <list_id display_value="x_2066889_centra_0_carros" element="NULL" name="x_2066889_centra_0_carros" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a3ec8fb2470f4b1039cb916a216d43f3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-04 20:19:19</sys_created_on>
+            <sys_id>6fec8fb2470f4b1039cb916a216d43f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-04 20:19:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="DELETE">
+            <average_value>false</average_value>
+            <element>cor</element>
+            <list_id display_value="x_2066889_centra_0_carros" element="NULL" name="x_2066889_centra_0_carros" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a3ec8fb2470f4b1039cb916a216d43f3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-04 20:19:19</sys_created_on>
+            <sys_id>e3ec8fb2470f4b1039cb916a216d43f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-04 20:19:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="DELETE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_2066889_centra_0_carros</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path/>
+            <sys_id>708c83b2470f4b1039cb916a216d43cd</sys_id>
+            <sys_mod_count/>
+            <sys_name>x_2066889_centra_0_carros</sys_name>
+            <sys_package/>
+            <sys_policy/>
+            <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2026-09-22 21:06:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</application>
+        <file_path/>
+        <instance_id>51b953c9eb5dc79c56eafddacad0cd55</instance_id>
+        <instance_name>dev398605</instance_name>
+        <name>sys_ui_list_x_2066889_centra_0_carros_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_2066889_centra_0_carros" version="2" view=""><sys_ui_list_element action="DELETE"><average_value>false</average_value><element>sys_created_on</element><list_id display_value="x_2066889_centra_0_carros" element="NULL" name="x_2066889_centra_0_carros" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a3ec8fb2470f4b1039cb916a216d43f3</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-04 20:19:19</sys_created_on><sys_id>63ec8fb2470f4b1039cb916a216d43f4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-04 20:19:19</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="DELETE"><average_value>false</average_value><element>ano</element><list_id display_value="x_2066889_centra_0_carros" element="NULL" name="x_2066889_centra_0_carros" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a3ec8fb2470f4b1039cb916a216d43f3</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-04 20:19:19</sys_created_on><sys_id>e7ec8fb2470f4b1039cb916a216d43f4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-04 20:19:19</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="DELETE"><average_value>false</average_value><element>nomes</element><list_id display_value="x_2066889_centra_0_carros" element="NULL" name="x_2066889_centra_0_carros" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a3ec8fb2470f4b1039cb916a216d43f3</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-04 20:19:19</sys_created_on><sys_id>6fec8fb2470f4b1039cb916a216d43f4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-04 20:19:19</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="DELETE"><average_value>false</average_value><element>cor</element><list_id display_value="x_2066889_centra_0_carros" element="NULL" name="x_2066889_centra_0_carros" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a3ec8fb2470f4b1039cb916a216d43f3</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-04 20:19:19</sys_created_on><sys_id>e3ec8fb2470f4b1039cb916a216d43f5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-04 20:19:19</sys_updated_on></sys_ui_list_element><sys_ui_list action="DELETE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_2066889_centra_0_carros</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path/><sys_id>708c83b2470f4b1039cb916a216d43cd</sys_id><sys_mod_count/><sys_name>x_2066889_centra_0_carros</sys_name><sys_package/><sys_policy/><sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on>2026-09-22 21:06:33</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-1002983892</payload_hash>
+        <record_name>x_2066889_centra_0_carros</record_name>
+        <reverted_from/>
+        <source>7104b92847be871039cb916a216d4357</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-22 21:06:33</sys_created_on>
+        <sys_id>4f5484f8476f0b9039cb916a216d4380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0caf118f60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-22 21:06:33</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>0f5484f82f6f0b90379d52efe1b07b7f</update_guid>
+        <update_guid_history>0f5484f82f6f0b90379d52efe1b07b7f:-1002983892,37ec03f2bc0f4b1077a6476a77ae0c9f:-334287834,8a82477edb8b4b106363a617077e0bf1:-1326794674</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-22 21:06:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>29e2760d1d2c4cce86e112f14dcc7b64</sys_id>
+        <sys_metadata>a3ec8fb2470f4b1039cb916a216d43f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2066889_centra_0_carros</sys_name>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_parent display_value="">63314b3a478b4b1039cb916a216d432f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_scope_delete display_value="">13dfe249bfb6400c8423fd137fb07190</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_2066889_centra_0_carros_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_2066889_centra_0_carros_null">4f5484f8476f0b9039cb916a216d4380</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-22 21:06:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_nlu_language">
+    <sys_cs_nlu_language action="INSERT_OR_UPDATE">
+        <enabled>false</enabled>
+        <language display_value="Chinese (Simplified)">a236fb794753c35039cb916a216d43b0</language>
+        <sys_class_name>sys_cs_nlu_language</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-14 07:01:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2a36fb794753c35039cb916a216d43b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name>sys_cs_nlu_language_2a36fb794753c35039cb916a216d43b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 07:01:30</sys_updated_on>
+    </sys_cs_nlu_language>
+</record_update>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Carros s</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_2066889_centra_0_carros</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_2066889_centra_0.carros_user</roles>
+        <route/>
+        <screen/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-04 19:33:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f5524f3e478b4b1039cb916a216d4372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Carros s</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name>sys_app_module_f5524f3e478b4b1039cb916a216d4372</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-04 19:33:02</sys_updated_on>
+        <timeline_page/>
+        <title>Carros s</title>
+        <uncancelable>false</uncancelable>
+        <ux_list/>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</application>
+        <file_path/>
+        <instance_id>51b953c9eb5dc79c56eafddacad0cd55</instance_id>
+        <instance_name>dev398605</instance_name>
+        <name>sys_app_module_f5524f3e478b4b1039cb916a216d4372</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Carros s</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_2066889_centra_0_carros</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_2066889_centra_0.carros_user</roles><route/><screen/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-04 19:33:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f5524f3e478b4b1039cb916a216d4372</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Carros s</sys_name><sys_overrides/><sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package><sys_policy/><sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope><sys_update_name>sys_app_module_f5524f3e478b4b1039cb916a216d4372</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-04 19:33:02</sys_updated_on><timeline_page/><title>Carros s</title><uncancelable>false</uncancelable><ux_list/><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>912785023</payload_hash>
+        <record_name>Carros s</record_name>
+        <reverted_from/>
+        <source>7104b92847be871039cb916a216d4357</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-22 19:02:37</sys_created_on>
+        <sys_id>abf72b6047ab0b9039cb916a216d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0ca7fa1cc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-22 19:02:37</sys_updated_on>
+        <type>Module</type>
+        <update_guid>3d528f3ec58b4b106e0ea9bba729770d</update_guid>
+        <update_guid_history>3d528f3ec58b4b106e0ea9bba729770d:526497988,3d528f3ec58b4b106e0ea9bba729770d:526497988</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Carros s">ea5444f8476f0b9039cb916a216d43c1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-22 21:06:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>08a3114489a945e8836f837083d5b0a4</sys_id>
+        <sys_metadata>f5524f3e478b4b1039cb916a216d4372</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Carros s</sys_name>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_scope_delete display_value="">13dfe249bfb6400c8423fd137fb07190</sys_scope_delete>
+        <sys_update_name>sys_app_module_f5524f3e478b4b1039cb916a216d4372</sys_update_name>
+        <sys_update_version display_value="sys_app_module_f5524f3e478b4b1039cb916a216d4372">abf72b6047ab0b9039cb916a216d43bb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-22 21:06:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

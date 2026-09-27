@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="DELETE">
+        <dashboard display_value="Dashboard Operacional">d64fb0334797439039cb916a216d4393</dashboard>
+        <dashboard_tab display_value="New Tab 2">da4fdf48476b079039cb916a216d43fa</dashboard_tab>
+        <layout>[]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-21 05:07:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b64fdf48476b079039cb916a216d43ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name>par_dashboard_canvas_b64fdf48476b079039cb916a216d43ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-21 05:07:38</sys_updated_on>
+    </par_dashboard_canvas>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</application>
+        <file_path/>
+        <instance_id>51b953c9eb5dc79c56eafddacad0cd55</instance_id>
+        <instance_name>dev398605</instance_name>
+        <name>par_dashboard_canvas_b64fdf48476b079039cb916a216d43ff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas"><par_dashboard_canvas action="INSERT_OR_UPDATE"><dashboard display_value="Dashboard Operacional">d64fb0334797439039cb916a216d4393</dashboard><dashboard_tab display_value="New Tab 2">da4fdf48476b079039cb916a216d43fa</dashboard_tab><layout>[]</layout><sys_class_name>par_dashboard_canvas</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-21 05:07:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b64fdf48476b079039cb916a216d43ff</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package><sys_policy/><sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope><sys_update_name>par_dashboard_canvas_b64fdf48476b079039cb916a216d43ff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-21 05:07:38</sys_updated_on></par_dashboard_canvas></record_update>]]></payload>
+        <payload_hash>-1410125166</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>7104b92847be871039cb916a216d4357</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-21 05:07:38</sys_created_on>
+        <sys_id>be4f1388476b079039cb916a216d4302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0c25cd54c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-21 05:07:38</sys_updated_on>
+        <type>PAR Dashboard Page Canvas</type>
+        <update_guid>3e4f1388666b079091663b3655fece01</update_guid>
+        <update_guid_history>3e4f1388666b079091663b3655fece01:-1410125166</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">dcd1a3cc476b079039cb916a216d430d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-21 05:18:40</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_canvas">par_dashboard_canvas</sys_db_object>
+        <sys_id>8c0ecc8fbc4247409ec6464733b18e40</sys_id>
+        <sys_metadata>b64fdf48476b079039cb916a216d43ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_scope_delete display_value="">13dfe249bfb6400c8423fd137fb07190</sys_scope_delete>
+        <sys_update_name>par_dashboard_canvas_b64fdf48476b079039cb916a216d43ff</sys_update_name>
+        <sys_update_version display_value="par_dashboard_canvas_b64fdf48476b079039cb916a216d43ff">be4f1388476b079039cb916a216d4302</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-21 05:18:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

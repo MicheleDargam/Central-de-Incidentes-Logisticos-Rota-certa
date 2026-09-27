@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="9b7c2d68477e871039cb916a216d435e" label="Veiculo" max_length="40" name="x_2066889_centra_0_veiculo" type="collection">
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Inativo" sequence="2" value="inativo"/>
+                <element inactive_on_update="false" label="Em Manutenção" sequence="1" value="em_manutencao"/>
+                <element inactive_on_update="false" label="Ativo" sequence="0" value="ativo"/>
+            </choice>
+        </element>
+        <element choice="3" label="Tipo" max_length="40" name="tipo" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Moto" sequence="2" value="moto"/>
+                <element inactive_on_update="false" label="Carreta" sequence="3" value="carreta"/>
+                <element inactive_on_update="false" label="Van" sequence="1" value="van"/>
+                <element inactive_on_update="false" label="Caminhão" sequence="0" value="caminhao"/>
+            </choice>
+        </element>
+        <element label="Transportadora" max_length="32" name="transportadora" reference="x_2066889_centra_0_transportadora" type="reference"/>
+        <element display="true" label="Placa" max_length="100" name="placa" type="string"/>
+        <element label="Veiculo Tipo" max_length="100" name="veiculo_tipo" type="string"/>
+        <index name="index">
+            <element name="transportadora"/>
+        </index>
+    </element>
+</database>

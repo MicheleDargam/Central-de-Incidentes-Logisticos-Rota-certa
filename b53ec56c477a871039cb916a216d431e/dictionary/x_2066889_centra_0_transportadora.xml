@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="fa2a2d24477e871039cb916a216d4367" label="Transportadora" max_length="40" name="x_2066889_centra_0_transportadora" type="collection">
+        <element label="Contato" max_length="100" name="contato" type="string"/>
+        <element label="SLA Contratual" max_length="255" name="sla_contratual" type="integer"/>
+        <element display="true" label="Nome" max_length="100" name="nome" type="string"/>
+    </element>
+</database>

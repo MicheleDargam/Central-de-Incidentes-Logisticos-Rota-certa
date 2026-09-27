@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_customization">
+    <sys_ux_theme_customization action="INSERT_OR_UPDATE">
+        <customization>{
+  "colors": [
+    {
+      "id": "isSecondaryColorUpdated",
+      "value": true,
+      "type": "secondary_color_updated"
+    }
+  ],
+  "feedback": [],
+  "groupName": "",
+  "imagery": [],
+  "systemTokenVersion": "v1",
+  "initialValues": {}
+}</customization>
+        <name>Logistica</name>
+        <sys_class_name>sys_ux_theme_customization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-19 21:36:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bf5e20bf47d3439039cb916a216d43d9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Logistica</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name>sys_ux_theme_customization_bf5e20bf47d3439039cb916a216d43d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-19 21:37:23</sys_updated_on>
+        <theme display_value="Logistica">075e2c7f47d3439039cb916a216d4342</theme>
+    </sys_ux_theme_customization>
+</record_update>

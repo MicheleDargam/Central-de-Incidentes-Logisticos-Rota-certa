@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="8aece9a8477e871039cb916a216d43e6" label="Carga" max_length="40" name="x_2066889_centra_0_carga" type="collection">
+        <element display="true" label="Descrição" max_length="200" name="descricao" type="string"/>
+        <element label="Cliente Final" max_length="100" name="cliente_final" type="string"/>
+        <element label="Destino" max_length="32" name="rota" reference="x_2066889_centra_0_rota" type="reference"/>
+        <element label="Valor" max_length="40" name="valor" type="currency"/>
+        <element choice="3" default="em_transito" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Com Problema" sequence="2" value="com_problema"/>
+                <element inactive_on_update="false" label="Entregue" sequence="1" value="entregue"/>
+                <element inactive_on_update="false" label="Em Trânsito" sequence="0" value="em_transito"/>
+                <element inactive_on_update="false" label="Cancelado" sequence="3" value="cancelado"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="rota"/>
+        </index>
+    </element>
+</database>

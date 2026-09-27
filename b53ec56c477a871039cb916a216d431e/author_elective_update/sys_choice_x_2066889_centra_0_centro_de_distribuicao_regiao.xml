@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="regiao" table="x_2066889_centra_0_centro_de_distribuicao" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>regiao</element>
+            <name>x_2066889_centra_0_centro_de_distribuicao</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-18 03:54:01</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>regiao</sys_name>
+            <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+            <sys_update_name>sys_choice_x_2066889_centra_0_centro_de_distribuicao_regiao</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-18 03:54:01</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>regiao</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Norte</label>
+            <language>en</language>
+            <name>x_2066889_centra_0_centro_de_distribuicao</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-18 03:54:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-18 03:54:01</sys_updated_on>
+            <value>norte</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>regiao</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nordeste</label>
+            <language>en</language>
+            <name>x_2066889_centra_0_centro_de_distribuicao</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-18 03:54:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-18 03:54:02</sys_updated_on>
+            <value>nordeste</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>regiao</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Centro-Oeste</label>
+            <language>en</language>
+            <name>x_2066889_centra_0_centro_de_distribuicao</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-18 03:54:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-18 03:54:02</sys_updated_on>
+            <value>centro_oeste</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>regiao</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sudeste</label>
+            <language>en</language>
+            <name>x_2066889_centra_0_centro_de_distribuicao</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-18 03:54:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-18 03:54:02</sys_updated_on>
+            <value>sudeste</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>regiao</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sul</label>
+            <language>en</language>
+            <name>x_2066889_centra_0_centro_de_distribuicao</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-18 03:54:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-18 03:54:02</sys_updated_on>
+            <value>sul</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

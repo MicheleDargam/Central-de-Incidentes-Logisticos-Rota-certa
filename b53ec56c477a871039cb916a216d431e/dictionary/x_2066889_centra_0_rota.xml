@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="090ce928477e871039cb916a216d4313" label="Rota" max_length="40" name="x_2066889_centra_0_rota" type="collection">
+        <element display="true" label="Destino" max_length="100" name="destino" type="string"/>
+        <element label="Origem" max_length="100" name="origem" type="string"/>
+        <element label="Distancia (km)" max_length="255" name="distancia_km" type="integer"/>
+        <element label="Transportadora" max_length="32" name="transportadora" reference="x_2066889_centra_0_transportadora" type="reference"/>
+        <index name="index">
+            <element name="transportadora"/>
+        </index>
+    </element>
+</database>

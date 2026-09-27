@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="4d86216c473e871039cb916a216d43a0" extends="task" label="Incidente Logistico" max_length="40" name="x_2066889_centra_0_incidente_logistico" type="collection">
+        <element label="Impacto Financeiro Estimado" max_length="40" name="impacto_financeiro_estimado" type="currency"/>
+        <element label="Motivo Reabertura" max_length="200" name="motivo_reabertura" type="string"/>
+        <element label="Transportadora" max_length="32" name="transportadora" reference="x_2066889_centra_0_transportadora" type="reference"/>
+        <element choice="3" label="Categoria" mandatory="true" max_length="40" name="categoria" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Atraso na Entrega" sequence="0" value="atraso_na_entrega"/>
+                <element inactive_on_update="false" label="Falha de Veiculo" sequence="2" value="falha_de_veiculo"/>
+                <element inactive_on_update="false" label="Divergencia de Estoque" sequence="3" value="divergencia_de_estoque"/>
+                <element inactive_on_update="false" label="Problema de Rota" sequence="4" value="problema_de_rota"/>
+                <element inactive_on_update="false" label="Avaria de Carga" sequence="1" value="avaria_de_carga"/>
+                <element inactive_on_update="false" label="Outro" sequence="5" value="outro"/>
+            </choice>
+        </element>
+        <element label="Rota" max_length="32" name="rota" reference="x_2066889_centra_0_rota" type="reference"/>
+        <element label="Veiculo" max_length="32" name="veiculo" reference="x_2066889_centra_0_veiculo" type="reference"/>
+        <element label="Centro de Distribuição" mandatory="true" max_length="32" name="centro_de_distribuicao" reference="x_2066889_centra_0_centro_de_distribuicao" type="reference"/>
+        <element display="true" label="Carga Pedido" max_length="32" name="carga_pedido" reference="x_2066889_centra_0_carga" type="reference"/>
+    </element>
+</database>
