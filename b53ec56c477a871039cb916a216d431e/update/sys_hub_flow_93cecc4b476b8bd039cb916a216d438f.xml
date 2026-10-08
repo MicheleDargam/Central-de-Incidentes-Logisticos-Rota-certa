@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1331000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>atualizar_carga_ao_resolver_incidente</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛Incidente Logistico Record","reference":"x_2066889_centra_0_incidente_logistico","reference_display":"Incidente Logistico","type":"reference","base_type":"reference","usedInstances":{"afd22c6e-097f-4280-9dc5-04a1c9967278":["record"],"1f68e9be-5773-47a7-99e2-7ab8cdba8188":["record"]},"attributes":{}},{"name":"Updated_1.current.carga_pedido","label":"Trigger - Record Updated➛Incidente Logistico Record➛Carga Pedido","reference":"x_2066889_centra_0_carga","reference_display":"Carga","type":"reference","base_type":"reference","parent_table_name":"x_2066889_centra_0_incidente_logistico","column_name":"carga_pedido","usedInstances":{"afd22c6e-097f-4280-9dc5-04a1c9967278":["record"]}},{"name":"Updated_1.current.assignment_group","label":"Trigger - Record Updated➛Incidente Logistico Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_2066889_centra_0_incidente_logistico","column_name":"assignment_group","usedInstances":{"1f68e9be-5773-47a7-99e2-7ab8cdba8188":["ah_to"]}}]</label_cache>
+        <master_snapshot>55e3100747ab8bd039cb916a216d4341</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Atualizar Carga ao Resolver Incidente</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>6ae3500747ab8bd039cb916a216d437e</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 21:38:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>93cecc4b476b8bd039cb916a216d438f</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Atualizar Carga ao Resolver Incidente</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name>sys_hub_flow_93cecc4b476b8bd039cb916a216d438f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 22:00:51</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>47e3500747ab8bd039cb916a216d43db</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=93cecc4b476b8bd039cb916a216d438f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=93cecc4b476b8bd039cb916a216d438f"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_2066889_centra_0_incidente_logistico">state=14<item display_value="Resolvido" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="14"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 22:00:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6ae3500747ab8bd039cb916a216d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 22:00:50</sys_updated_on>
+        <table>x_2066889_centra_0_incidente_logistico</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>93cecc4b476b8bd039cb916a216d438f</identifier>
+        <identifier_type>flow</identifier_type>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 22:00:50</sys_created_on>
+        <sys_id>26e3500747ab8bd039cb916a216d4380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 22:00:50</sys_updated_on>
+        <trigger display_value="">6ae3500747ab8bd039cb916a216d437e</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=93cecc4b476b8bd039cb916a216d438f^sys_idNOT IN26e3500747ab8bd039cb916a216d4380"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=93cecc4b476b8bd039cb916a216d438f"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=93cecc4b476b8bd039cb916a216d438f^sys_idNOT IN1fcecc4b476b8bd039cb916a216d4393"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>93cecc4b476b8bd039cb916a216d438f</id>
+        <name>Atualizar Carga ao Resolver Incidente</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 21:38:29</sys_created_on>
+        <sys_id>1fcecc4b476b8bd039cb916a216d4393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 21:38:29</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=1fcecc4b476b8bd039cb916a216d4393"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=93cecc4b476b8bd039cb916a216d438f^sys_idNOT IN53de408b476b8bd039cb916a216d43fe,abde808b476b8bd039cb916a216d4352,afde808b476b8bd039cb916a216d4346"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Atualizar Carga ao Resolver Incidente">93cecc4b476b8bd039cb916a216d438f</model>
+        <model_id>93cecc4b476b8bd039cb916a216d438f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_93cecc4b476b8bd039cb916a216d438f</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 21:38:46</sys_created_on>
+        <sys_id>53de408b476b8bd039cb916a216d43fe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 22:00:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=53de408b476b8bd039cb916a216d43fe"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Atualizar Carga ao Resolver Incidente">93cecc4b476b8bd039cb916a216d438f</model>
+        <model_id>93cecc4b476b8bd039cb916a216d438f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_93cecc4b476b8bd039cb916a216d438f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 21:38:47</sys_created_on>
+        <sys_id>abde808b476b8bd039cb916a216d4352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 21:38:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=abde808b476b8bd039cb916a216d4352"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Atualizar Carga ao Resolver Incidente">93cecc4b476b8bd039cb916a216d438f</model>
+        <model_id>93cecc4b476b8bd039cb916a216d438f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_93cecc4b476b8bd039cb916a216d438f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 21:38:47</sys_created_on>
+        <sys_id>afde808b476b8bd039cb916a216d4346</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 22:00:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=afde808b476b8bd039cb916a216d4346"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=93cecc4b476b8bd039cb916a216d438f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=93cecc4b476b8bd039cb916a216d438f"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=93cecc4b476b8bd039cb916a216d438f^sys_idNOT IN0bde008b476b8bd039cb916a216d4328"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Atualizar Carga ao Resolver Incidente">93cecc4b476b8bd039cb916a216d438f</flow>
+        <generation_source/>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 21:38:45</sys_created_on>
+        <sys_id>0bde008b476b8bd039cb916a216d4328</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 22:00:40</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=93cecc4b476b8bd039cb916a216d438f^sys_idNOT IN7342908b476b8bd039cb916a216d436a,9d9f44cb476b8bd039cb916a216d4319"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Atualizar Carga ao Resolver Incidente">93cecc4b476b8bd039cb916a216d438f</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 21:53:50</sys_created_on>
+        <sys_id>7342908b476b8bd039cb916a216d436a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 22:00:40</sys_updated_on>
+        <ui_id>1f68e9be-5773-47a7-99e2-7ab8cdba8188</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y32/bNhD+Vwjt1XVly5bt7KlLFqxAfwCp1z00hUCRlM2VEjWKiuMG/t93lChLihrFsLOgA/JiQCTv7ru77ztK/nLncOqcORM6d/0wmuCZ6409152PF4vQW0TufLZwR4Q6AyfBMYOTihGpzPMNFrlZuLv7M6VYMxqMhiRXiiV6t4N9yrNU4O1newxWyJoLCvvO2ZevAyfFCjxqppyzu3tbepuyQOCQCTC8kCSPwSl6ewE+DkVbWS+xWjGNrirU97MwoeCZ2iABN4uwZWC5A4fdapZQBkEjLDI2cGKcQLJSbfcrimH6MRH1wponGly+yTJJOBQmQ3rNEIsxF2jD9RphVIYfOsbfbca/AwRvbFxFDIpADCKeEE4BkdNYDmxNYfttvU3WkhP2MdVcJmWhNQ5FVXMp8jj5UGZtusIinAvd6EqegV+WmjQNbq1yyCH6tJabqyruJU+KgtgEhSRY7J+w1oqHOeRZNFIwrGp/QQHJ+IRITLCixjFOU56sglTJG144BpjxcCXgYRgJuQH7jK+SISYmpyEUHA8vYf2iWP6MFTcJvgc3YLwrChT8kxtMZYrt4OZsUPQdjmZE8VS/Acc3zKawG1gRjBZ9tKKTmj4Nn7UQboOx6/vz+SIgEFzhwA2qJgKb5YpnmhPZVUbVSobeNQ4dJ5alAYY+lMAOTapl/ECSVietNSuT0UkyWYI2dCnSUhVIWxh7aczdtjQekMSTS8ECPVoL/w3foa9ZUNLY5lYEf1QHj7EfuBuGfjideTVRFiSiszDy8Yx4NTE2MNRUjNW3oBhqDQmMuuy22j+SzmD8+rJIb3AwysoYdCVyytBfFdy+DCy/QylhgCU1uccnkbtkItISQe/EFib/PrJZrO8FvcYa8Qxl0K4hWkrELfiGxQBtZY7iPNNwTMNOSzaty2TyLIqxrbWrFz/s+/9CUqdKZ9o/Y3FNPLwOtOx/eRrizEAs0lwpmae7HerK6nDD45T3CaqerCrVHZDgXrKym60VV1b5tNry+rVVvol0pNW4FtyXi6F1MVAmeMyL5pb6O5XYtLfvzG21mpAGsZ/wA6BNxQMgVYbn5118D1BxctyYf+Hi83Fx1PvRx/xWr8PnIeMBmCrD3+6xMeyj4/SFjj87Haf9rSetZmd5+DcjukHJc3h3w8h8J7JV+RbVJmhn/0mu8ccx7w33iH+UxQO09V8u9J/ptRT3tjsat+eRpNsGP69z1/VIigzCV5on25gwJaUOoQzfik167VyXx9h14z+MK5ZJAclL9AqVJP7dktieJq/T0qpLehvUOoXfsf+LN/n1IOf7050gxynnj+X7d5VuDijkfsyXZezU1SpmrWNR62V24pj3p1PPf1FMc86nGzqmSqapze2kWf/1XwFe9GQfFwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7342908b476b8bd039cb916a216d436a"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Atualizar Carga ao Resolver Incidente">93cecc4b476b8bd039cb916a216d438f</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 21:41:55</sys_created_on>
+        <sys_id>9d9f44cb476b8bd039cb916a216d4319</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 22:00:40</sys_updated_on>
+        <ui_id>afd22c6e-097f-4280-9dc5-04a1c9967278</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1U3WvbMBD/V4Kfg7HjNCR5Gw2BPawd3daXroizdEkE8sdkKU0W8r/vJMtp2q5dKIExmN90vvt9nH7obhdJEU2jIYoknaQjnqVZNkiSwXiY5qMsTwciA8Q06kclFEidGnmlBZ3XoKwr7HbfagEGBUtjbrXG0sQc9BJYjUKKar+nZiGbWsH2NsxQha+kEtQcTe/u+1ENmuAN6mi6e/bLbGtkCnJUNDiruC2IofdxRhinSu+mbzrtz704DjqLgM6kK9IvpydN+hFuDJYCiW4BqsF+VEBJniu9jaZGWypoBHFdqu2hYyVL0zotYNPIn4Q/TFzfAskaD1s4HFnYULecSnK8ro2syrZiIFfd5ipli/KqteB2iwuwyhzt1jaEh7WT7ES0ChdfVtXDTcc3l6V3F9SqioM6nMAYLXNrsHHXgQr9Ugqoa1kuWa2rtfTDJKWIl4oO8UJVD8TZyGUZA3e6Y1oQxHOqz3z5FrR0Jj4RDA3vvXn2wzre1kYQzLxnb5j5i6LWhmtZmw8EvMYgc98P2c0v3goAnzze9xHmY343bJCMRuPxhHEi18AS5uP7MrWXrtz77FP97gR/dRp6V62GU/U/GX7FT8jwk1qI8MXZIjz+SxEOiv6xDP8pucngzafr6KZ9WJuj1DYGjG2+2yTJHJ/GpcWXiX2l653JxYKwDfZa9P7JHjqAuUQlmt+Y6qIbCNg6EBxe4LPlNx0l/vv/EJ/xIb7/BZllsEtGCAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9d9f44cb476b8bd039cb916a216d4319"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=93cecc4b476b8bd039cb916a216d438f"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=93cecc4b476b8bd039cb916a216d438f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=93cecc4b476b8bd039cb916a216d438f"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=93cecc4b476b8bd039cb916a216d438f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_93cecc4b476b8bd039cb916a216d438f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 21:38:47</sys_created_on>
+        <sys_id>2bde808b476b8bd039cb916a216d4328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 21:38:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_93cecc4b476b8bd039cb916a216d438f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 21:38:47</sys_created_on>
+        <sys_id>abde808b476b8bd039cb916a216d435a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 21:38:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_93cecc4b476b8bd039cb916a216d438f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 21:38:47</sys_created_on>
+        <sys_id>efde808b476b8bd039cb916a216d434d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 21:38:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_93cecc4b476b8bd039cb916a216d438f"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_93cecc4b476b8bd039cb916a216d438f"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>atualizar_carga_ao_resolver_incidente</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛Incidente Logistico Record","reference":"x_2066889_centra_0_incidente_logistico","reference_display":"Incidente Logistico","type":"reference","base_type":"reference","usedInstances":{"afd22c6e-097f-4280-9dc5-04a1c9967278":["record"],"1f68e9be-5773-47a7-99e2-7ab8cdba8188":["record"]},"attributes":{}},{"name":"Updated_1.current.carga_pedido","label":"Trigger - Record Updated➛Incidente Logistico Record➛Carga Pedido","reference":"x_2066889_centra_0_carga","reference_display":"Carga","type":"reference","base_type":"reference","parent_table_name":"x_2066889_centra_0_incidente_logistico","column_name":"carga_pedido","usedInstances":{"afd22c6e-097f-4280-9dc5-04a1c9967278":["record"]}},{"name":"Updated_1.current.assignment_group","label":"Trigger - Record Updated➛Incidente Logistico Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_2066889_centra_0_incidente_logistico","column_name":"assignment_group","usedInstances":{"1f68e9be-5773-47a7-99e2-7ab8cdba8188":["ah_to"]}}]</label_cache>
+        <master>true</master>
+        <name>Atualizar Carga ao Resolver Incidente</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Atualizar Carga ao Resolver Incidente">93cecc4b476b8bd039cb916a216d438f</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 22:00:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>55e3100747ab8bd039cb916a216d4341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 22:00:45</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=55e3100747ab8bd039cb916a216d4341"/>
+    <sys_variable_value action="delete_multiple" query="document_key=55e3100747ab8bd039cb916a216d4341"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=55e3100747ab8bd039cb916a216d4341"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=55e3100747ab8bd039cb916a216d4341^sys_idNOT INe5e3100747ab8bd039cb916a216d4343"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>55e3100747ab8bd039cb916a216d4341</id>
+        <name>Atualizar Carga ao Resolver Incidente</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 22:00:46</sys_created_on>
+        <sys_id>e5e3100747ab8bd039cb916a216d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 22:00:46</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=e5e3100747ab8bd039cb916a216d4343"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=55e3100747ab8bd039cb916a216d4341^sys_idNOT IN61e3100747ab8bd039cb916a216d4345,6de3100747ab8bd039cb916a216d4370,f1e3100747ab8bd039cb916a216d4396"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Atualizar Carga ao Resolver Incidente">55e3100747ab8bd039cb916a216d4341</model>
+        <model_id>55e3100747ab8bd039cb916a216d4341</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_55e3100747ab8bd039cb916a216d4341</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 22:00:46</sys_created_on>
+        <sys_id>61e3100747ab8bd039cb916a216d4345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 22:00:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=61e3100747ab8bd039cb916a216d4345"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Atualizar Carga ao Resolver Incidente">55e3100747ab8bd039cb916a216d4341</model>
+        <model_id>55e3100747ab8bd039cb916a216d4341</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_55e3100747ab8bd039cb916a216d4341</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 22:00:46</sys_created_on>
+        <sys_id>6de3100747ab8bd039cb916a216d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 22:00:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6de3100747ab8bd039cb916a216d4370"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Atualizar Carga ao Resolver Incidente">55e3100747ab8bd039cb916a216d4341</model>
+        <model_id>55e3100747ab8bd039cb916a216d4341</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_55e3100747ab8bd039cb916a216d4341</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 22:00:47</sys_created_on>
+        <sys_id>f1e3100747ab8bd039cb916a216d4396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 22:00:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f1e3100747ab8bd039cb916a216d4396"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=55e3100747ab8bd039cb916a216d4341"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=55e3100747ab8bd039cb916a216d4341"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=55e3100747ab8bd039cb916a216d4341^sys_idNOT INaee3100747ab8bd039cb916a216d43df"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Atualizar Carga ao Resolver Incidente">55e3100747ab8bd039cb916a216d4341</flow>
+        <generation_source/>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 22:00:50</sys_created_on>
+        <sys_id>aee3100747ab8bd039cb916a216d43df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 22:00:50</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=55e3100747ab8bd039cb916a216d4341^sys_idNOT IN0ae3100747ab8bd039cb916a216d43dd,0ee3100747ab8bd039cb916a216d43db"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Atualizar Carga ao Resolver Incidente">55e3100747ab8bd039cb916a216d4341</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 22:00:48</sys_created_on>
+        <sys_id>0ae3100747ab8bd039cb916a216d43dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 22:00:48</sys_updated_on>
+        <ui_id>1f68e9be-5773-47a7-99e2-7ab8cdba8188</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2YXW/bNhSG/wqh3bqu/G1nV62zYAXSFoiz7qIpBIqibK6UqJFUHDfwf9+hRH3YSl258bAEy00AHX695/B9dOR8vndY4Jw5w2Dqjv1wiCfuoD9w3Wl/NvMHs9CdTmZujwROx4lxRGGmpERI83yLeWoC9/d/JAHWNPB6XZJKSWO93cJ4wFTC8eaTnQYRsmI8gHHn7POXjpNgCTtqKp2z+72htpI49imHqddYLqlGV4W0fal6k5jnQJA0AnkeK4KXdoNzO4LencMILDKq3I5D7zSNAwpyQswV7TgRjiFXITdlRFIcfIx5FVixWMOWb5QShEFdFNIrimiEGUdrplcIo1xY1zH73Sn2DcQN+markEINiNHKYsICUOTUwp4tKQy/q4bDc6zxQsuU6FSWlRaMUJVXM6AhTrme12P5hI+JZiLOl2js82K14GkUf8iL6JQb1G4yVSCGJqY2Jlk4HBIPFyuxvirEXrA4q6KtChcE8/IpXFAsyeqCUW6uOk4jH+Z2HKy1ZH6qjUwwBYdZ1TleJtWcBTMpp9lVRjhJWLz0EiluWXYgyI+6Sw4P3ZCLNaxXbBl3MTG5duH2cPcC4udZ+BOWzCT+HraBxduOozZqzrFSVfpQf+/v1KjPi7Erx6z2MsOZxUSyRL+Bo26pTXbbsYj1Zof8HAwr39b2rDC78/rueDydzjwCh0vsuV7hEepxsWRKMyKa3BVOoeiyNuk4FFtIr1A0Nno4FYthI3ZZX4s+5AMWwt6REOZWtAxeA3g6fzfkyCFt5ZXcTd1d7r7D29PgrKSnNWi7QP070IBJlJc73+aWHf4TMP0IIQDA98f+aDKofDgjYTDxwzGekEHluzW8eGWE5Vcve/HWOOo1EbGvlOOYaKGlYAIQ5GlA0Z+FqEM6LSS+EPD2i/cJAaWvL7LqloT0H9WmcmsiLRBcJt9AcyolmWDVuvQKa8QUUnBbXXQtELNZ1VZ00EakKEqVhmkaRnbg2+l3w6fLnbWDjZ4/6JVnAebpARwdbgS4MjZeeVoc/krsgi4QnSW+lCJNtlvUhLP9wuP4bZFK2dNEMy+LqYJbjJd7lC6KoCV0cJjQvGU1AK21KPfpwvJcWDDCOYtYZoic4tPjERz0FHV3bERIDY8T/F5qcXhh6Pm8qeQYQw9/ruW8OPrZObp38Ec4He/4yD+1pVucXlj67Z6n/aNNPXox9f/E1KPDtiI7RlKp/xclumbsOXzUYmR+hNNl/qW4a/PG+JEfJj9WV5h+UWp7SO8x5h+/fKL8594/vdHxQSuF/d03pgg2NZffpK47IAkyml9pFm8iQqUQ2ofCfM0GgxvnJp9Gb2r/ZrqiSnAoh0CvUI7CbxYFO5u8TvJVTXTsoXZT+Nsf/zIY/tpq83J245Dj+GtRtLLp5CVr1NCSt9IR3+Pu9+v3lxV1k0e2nPFoNBi/cPfonpOsg34gRZLY3E7cd778AwuU8x9mGQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0ae3100747ab8bd039cb916a216d43dd"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Atualizar Carga ao Resolver Incidente">55e3100747ab8bd039cb916a216d4341</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 22:00:48</sys_created_on>
+        <sys_id>0ee3100747ab8bd039cb916a216d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 22:00:48</sys_updated_on>
+        <ui_id>afd22c6e-097f-4280-9dc5-04a1c9967278</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VV227aQBD9FbTPyLKBIOCtAkWqlCZV0uYljVbD7gArrS/dSwJF/Htn7TUgcmki5SWq33YuO+eMz7HvtkxJNmEDlGk2zoain/X7vTTtjQbZfNifZz3ZB8SMdVkBOVKlQVEaSecH0D4EttuflQSHkmeJ8MZg4RIBZgm8QqlkudtRsVS20rC5jT0UESulJRWzyd19l1Vg6HqHhk22J6m34tMwR02l1y3AU8BuU4WzLIXPCSRXbfAids5ipvN1RhlqCnCytMtw7bCQSEAWoC12WQ4FUS7Nhk2c8RQwCPKq0Jt9xUoVriGaw9qqPzR5kIa6BRIzEZewP/K4oCa8mIGDG7pZOG/2+yqVQNvsROICvHbT41hTcFU5VRZNi4O5brtL7fPistkI219w9D68JRBYBZ4BeUNrcbMqH69bkOeqqFcSKepSgN6fwDmj5t4FOFuGGusd51BVqljyypQPqm4mKHmy1HRIFrp8pJlWLYsERMCd0FYhOaf4rA7fglGBxDe6hpp3XWY3dqrB2gMV2iH/7QOShlikwOst1CvgtRJCszCqcl9o1ANG4LtudMD87DWFifFBUEd3Hlyw5r10OByNxlzQcAM85bUJnmp/GsKd77U33u2DN6BsffCjfvvPo45WeBK7OO7tXDaJaISzDzPC6DMZIdL49E74l/7T3qtf2CMl1ZK3R9q3Dpy3v3ya9sM8g0uPT3X/QtX79P8GlK3+zxVqaZ+B3Yofc4LnkDc0TgwQk53bmNz/DT7MBdkwrZ9P5IX/5qdw/xd4Pu+mGAkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0ee3100747ab8bd039cb916a216d43db"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=55e3100747ab8bd039cb916a216d4341"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=55e3100747ab8bd039cb916a216d4341"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=55e3100747ab8bd039cb916a216d4341"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=55e3100747ab8bd039cb916a216d4341"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_55e3100747ab8bd039cb916a216d4341</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 22:00:47</sys_created_on>
+        <sys_id>39e3100747ab8bd039cb916a216d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 22:00:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_55e3100747ab8bd039cb916a216d4341</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 22:00:46</sys_created_on>
+        <sys_id>a1e3100747ab8bd039cb916a216d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 22:00:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_55e3100747ab8bd039cb916a216d4341</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 22:00:47</sys_created_on>
+        <sys_id>bde3100747ab8bd039cb916a216d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 22:00:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_55e3100747ab8bd039cb916a216d4341"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_55e3100747ab8bd039cb916a216d4341"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>93cecc4b476b8bd039cb916a216d438f</sys_id>
+        <latest_snapshot>55e3100747ab8bd039cb916a216d4341</latest_snapshot>
+        <compiler_build/>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=93cecc4b476b8bd039cb916a216d438f^sys_idNOT IN2ae3500747ab8bd039cb916a216d4381"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan/>
+        <plan_id>93cecc4b476b8bd039cb916a216d438f</plan_id>
+        <snapshot>55e3100747ab8bd039cb916a216d4341</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 22:00:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2ae3500747ab8bd039cb916a216d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 22:00:50</sys_updated_on>
+        <trigger display_value="">6ae3500747ab8bd039cb916a216d437e</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=93cecc4b476b8bd039cb916a216d438f"/>
+</record_update>

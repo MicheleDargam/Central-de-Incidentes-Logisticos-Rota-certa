@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>rota</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validar Duplicidade de Rota</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    // Captura o valor da carga atual no formulário
+    var cargaAtual = g_form.getValue('carga_pedido');
+
+    // Faz a chamada ao Script Include via GlideAjax
+    var ga = new GlideAjax('x_2066889_centra_0.IncidenteLogisticoUtils');
+    ga.addParam('sysparm_name', 'verificarDuplicidade');
+    ga.addParam('sysparm_rota', newValue); 
+    ga.addParam('sysparm_carga', cargaAtual);
+
+    ga.getXMLAnswer(function(answer) {
+        // Se o servidor encontrar duplicidade, exibe o aviso amarelo no campo
+        if (answer === 'true') {
+            g_form.showFieldMsg('rota', 'Atenção: Já existe um incidente ativo registrado para esta Rota.', 'warning');
+        } else {
+            // Se não houver duplicidade, remove o aviso caso estivesse visível
+            g_form.hideFieldMsg('rota');
+        }
+    });
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-28 22:57:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5aa59fae47a30bd039cb916a216d4313</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Validar Duplicidade de Rota</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Central de Incidentes Logísticos - RotaCerta" source="x_2066889_centra_0">b53ec56c477a871039cb916a216d431e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Central de Incidentes Logísticos - RotaCerta">b53ec56c477a871039cb916a216d431e</sys_scope>
+        <sys_update_name>sys_script_client_5aa59fae47a30bd039cb916a216d4313</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 00:59:18</sys_updated_on>
+        <table>x_2066889_centra_0_incidente_logistico</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
